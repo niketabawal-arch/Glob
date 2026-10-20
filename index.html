@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Classes Hisar | Best IIT-JEE, NEET, NDA & Foundation Coaching</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#eff6ff',
+                            100: '#dbeafe',
+                            600: '#1d4ed8',
+                            700: '#1e40af',
+                            800: '#1e3a8a',
+                            900: '#172554',
+                            accent: '#f59e0b'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans text-gray-800 bg-gray-50 antialiased selection:bg-brand-600 selection:text-white">
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-gradient-to-r from-brand-900 via-brand-800 to-brand-900 text-white text-xs md:text-sm py-2 px-4 text-center font-medium">
+        🎯 Admissions Open for Session 2025-26 | Appear for <strong>GSAT (Global Scholarship Test)</strong> & Get Up to 90% Scholarship! 
+        <a href="#enroll" class="underline font-bold text-amber-300 ml-2 hover:text-white transition">Register Today →</a>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <!-- Brand Logo -->
+            <a href="#" class="flex items-center space-x-3">
+                <div class="w-11 h-11 bg-brand-700 text-white rounded-xl flex items-center justify-center font-black text-2xl shadow-md">
+                    G
+                </div>
+                <div>
+                    <span class="text-2xl font-black text-brand-900 tracking-tight block leading-none">GLOBAL<span class="text-amber-500">CLASSES</span></span>
+                    <span class="text-[11px] tracking-wider uppercase font-semibold text-gray-500">Hisar • Rajgarh Road</span>
+                </div>
+            </a>
+
+            <!-- Desktop Nav Items -->
+            <nav class="hidden md:flex items-center space-x-8 font-medium text-gray-700">
+                <a href="#courses" class="hover:text-brand-700 transition">Courses</a>
+                <a href="#why-us" class="hover:text-brand-700 transition">Why Us</a>
+                <a href="#results" class="hover:text-brand-700 transition">Results</a>
+                <a href="#testimonials" class="hover:text-brand-700 transition">Reviews</a>
+                <a href="#contact" class="hover:text-brand-700 transition">Contact</a>
+            </nav>
+
+            <!-- Call-to-action & Phone -->
+            <div class="hidden lg:flex items-center space-x-4">
+                <a href="tel:+919992224651" class="flex items-center space-x-2 text-sm font-semibold text-gray-700 hover:text-brand-700">
+                    <svg class="w-4 h-4 text-brand-700" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 4V3z"/></svg>
+                    <span>+91 99922 24651</span>
+                </a>
+                <a href="#enroll" class="bg-brand-700 text-white text-sm font-semibold px-5 py-2.5 rounded-lg shadow hover:bg-brand-800 transition transform hover:-translate-y-0.5">
+                    Book Free Demo
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-b from-brand-50 to-white py-16 lg:py-24 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-12 gap-12 items-center">
+            
+            <!-- Hero Left Content -->
+            <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                <div class="inline-flex items-center space-x-2 bg-amber-100 text-amber-900 border border-amber-300 px-3.5 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wide">
+                    <span>⭐ Premier Institute in Hisar</span>
+                </div>
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-900 tracking-tight leading-tight">
+                    Crack <span class="text-brand-700">IIT-JEE, NEET & NDA</span> With Proven Mentorship.
+                </h1>
+                <p class="text-base sm:text-lg text-gray-600 max-w-2xl leading-relaxed">
+                    Empowering students of Hisar and Haryana with top Kota/Delhi faculty, disciplined study modules, daily doubt clearance, and NCERT-integrated board preparation.
+                </p>
+
+                <!-- Key Value Badges -->
+                <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-2 text-sm text-gray-700 font-medium">
+                    <div class="flex items-center space-x-2">
+                        <span class="text-green-600 font-bold">✓</span>
+                        <span>Small Batch Sizes (1:25)</span>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <span class="text-green-600 font-bold">✓</span>
+                        <span>Daily Practice Papers (DPP)</span>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <span class="text-green-600 font-bold">✓</span>
+                        <span>Regular Offline & CBT Mock Tests</span>
+                    </div>
+                </div>
+
+                <!-- Call to Actions -->
+                <div class="pt-4 flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
+                    <a href="#enroll" class="bg-brand-700 text-white text-base font-semibold px-8 py-3.5 rounded-xl shadow-lg hover:bg-brand-800 transition text-center">
+                        Register for Free Demo Class
+                    </a>
+                    <a href="https://wa.me/919992224651" target="_blank" class="border-2 border-gray-300 hover:border-brand-700 bg-white text-gray-800 text-base font-semibold px-6 py-3.5 rounded-xl transition text-center flex items-center justify-center space-x-2">
+                        <span>💬 Chat on WhatsApp</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Hero Right Form (Lead Generation) -->
+            <div id="enroll" class="lg:col-span-5">
+                <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl border border-gray-100">
+                    <div class="mb-5 text-center">
+                        <h3 class="text-2xl font-bold text-gray-900">Get Free Career Counseling</h3>
+                        <p class="text-xs sm:text-sm text-gray-500 mt-1">Book a 1-on-1 session with our senior academic mentors</p>
+                    </div>
+
+                    <form class="space-y-4" onsubmit="event.preventDefault(); alert('Thank you! Our academic counselor will call you within 2 business hours.');">
+                        <div>
+                            <label class="block text-xs font-semibold text-gray-700 mb-1">Student's Full Name</label>
+                            <input type="text" required placeholder="e.g. Rahul Sharma" class="w-full px-4 py-2.5 text-sm rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-700 focus:outline-none">
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-semibold text-gray-700 mb-1">Contact Number</label>
+                            <input type="tel" required placeholder="e.g. 9876543210" class="w-full px-4 py-2.5 text-sm rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-700 focus:outline-none">
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-semibold text-gray-700 mb-1">Target Exam / Goal</label>
+                            <select class="w-full px-4 py-2.5 text-sm rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-700 focus:outline-none bg-white">
+                                <option>IIT-JEE (Main + Advanced)</option>
+                                <option>NEET-UG (Medical)</option>
+                                <option>NDA / Defence Exams</option>
+                                <option>Class 11th - 12th (Science / Commerce)</option>
+                                <option>Foundation (Class 9th & 10th)</option>
+                                <option>CUET Preparation</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-semibold text-gray-700 mb-1">Current Class / Status</label>
+                            <select class="w-full px-4 py-2.5 text-sm rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-700 focus:outline-none bg-white">
+                                <option>Moving to 9th / 10th</option>
+                                <option>Moving to 11th (Medical / Non-Med)</option>
+                                <option>Moving to 12th</option>
+                                <option>12th Passed (Dropper / Repeater)</option>
+                            </select>
+                        </div>
+
+                        <button type="submit" class="w-full py-3 bg-brand-700 hover:bg-brand-800 text-white font-bold rounded-lg shadow-md transition">
+                            Request Instant Call Back
+                        </button>
+
+                        <p class="text-[11px] text-gray-400 text-center">We respect your privacy. No spam guaranteed.</p>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Stats Counter Bar -->
+    <section class="bg-brand-900 text-white py-12 border-y border-brand-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            <div>
+                <p class="text-3xl lg:text-4xl font-extrabold text-amber-400">1,500+</p>
+                <p class="text-xs sm:text-sm text-gray-300 mt-1 uppercase font-medium">Students Mentored</p>
+            </div>
+            <div>
+                <p class="text-3xl lg:text-4xl font-extrabold text-amber-400">15+ Yrs</p>
+                <p class="text-xs sm:text-sm text-gray-300 mt-1 uppercase font-medium">Faculty Teaching Exp.</p>
+            </div>
+            <div>
+                <p class="text-3xl lg:text-4xl font-extrabold text-amber-400">4.9 / 5</p>
+                <p class="text-xs sm:text-sm text-gray-300 mt-1 uppercase font-medium">Google & JustDial Rating</p>
+            </div>
+            <div>
+                <p class="text-3xl lg:text-4xl font-extrabold text-amber-400">100%</p>
+                <p class="text-xs sm:text-sm text-gray-300 mt-1 uppercase font-medium">Doubt Resolution Track</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Courses / Offerings -->
+    <section id="courses" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-brand-700 font-bold uppercase tracking-wider text-xs">Academic Programs</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mt-2">Targeted Courses Tailored For Success</h2>
+                <p class="text-gray-600 mt-3 text-base">Comprehensive coaching combining board exam mastery and competitive edge.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Course 1: IIT-JEE -->
+                <div class="bg-white rounded-2xl p-7 shadow-sm border border-gray-200 hover:shadow-xl hover:border-brand-600 transition duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-blue-100 text-brand-700 flex items-center justify-center font-bold text-xl mb-5">
+                            ⚙️
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900">IIT-JEE (Mains & Advanced)</h3>
+                        <p class="text-xs font-semibold text-brand-600 uppercase mt-1 mb-4">Classes XI, XII & Dropper Batches</p>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-6">
+                            Rigorous conceptual coaching in Physics, Chemistry, and Mathematics designed to crack IITs, NITs, and IIITs with advanced problem-solving tips.
+                        </p>
+                        <ul class="text-xs text-gray-600 space-y-2 mb-6">
+                            <li class="flex items-center"><span class="text-green-500 mr-2 font-bold">✓</span> Full NCERT + Advanced Problem Modules</li>
+                            <li class="flex items-center"><span class="text-green-500 mr-2 font-bold">✓</span> Periodic CBT (Computer-Based) Tests</li>
+                        </ul>
+                    </div>
+                    <a href="#enroll" class="block w-full py-2.5 text-center bg-gray-100 hover:bg-brand-700 hover:text-white rounded-lg font-semibold text-sm transition">Inquire Details</a>
+                </div>
+
+                <!-- Course 2: NEET Medical -->
+                <div class="bg-white rounded-2xl p-7 shadow-sm border border-gray-200 hover:shadow-xl hover:border-brand-600 transition duration-300 flex flex-col justify-between ring-2 ring-brand-700">
+                    <div>
+                        <span class="bg-brand-700 text-white text-[10px] uppercase font-black px-2.5 py-1 rounded-full mb-3 inline-block">Popular Choice</span>
+                        <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold text-xl mb-5">
+                            🩺
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900">NEET (UG) Medical</h3>
+                        <p class="text-xs font-semibold text-emerald-600 uppercase mt-1 mb-4">Class XI, XII & Target Batches</p>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-6">
+                            Deep dive into NCERT Biology, numerical mastery in Physics, and thorough organic/inorganic chemistry drills for AIIMS and Govt. Medical seats.
+                        </p>
+                        <ul class="text-xs text-gray-600 space-y-2 mb-6">
+                            <li class="flex items-center"><span class="text-green-500 mr-2 font-bold">✓</span> Line-by-line NCERT Biology analysis</li>
+                            <li class="flex items-center"><span class="text-green-500 mr-2 font-bold">✓</span> High-frequency OMR speed practice</li>
+                        </ul>
+                    </div>
+                    <a href="#enroll" class="block w-full py-2.5 text-center bg-brand-700 text-white rounded-lg font-semibold text-sm hover:bg-brand-800 transition">Inquire Details</a>
+                </div>
+
+                <!-- Course 3: NDA & Defence -->
+                <div class="bg-white rounded-2xl p-7 shadow-sm border border-gray-200 hover:shadow-xl hover:border-brand-600 transition duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-orange-100 text-orange-700 flex items-center justify-center font-bold text-xl mb-5">
+                            🛡️
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900">NDA & Defence Preparation</h3>
+                        <p class="text-xs font-semibold text-orange-600 uppercase mt-1 mb-4">Written + SSB Orientation</p>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-6">
+                            Holistic training for NDA aspirants covering Mathematics, General Ability Test (GAT), spoken English enhancement, and physical discipline guidance.
+                        </p>
+                        <ul class="text-xs text-gray-600 space-y-2 mb-6">
+                            <li class="flex items-center"><span class="text-green-500 mr-2 font-bold">✓</span> Short-tricks for NDA Mathematics</li>
+                            <li class="flex items-center"><span class="text-green-500 mr-2 font-bold">✓</span> Daily Current Affairs & Interview guidance</li>
+                        </ul>
+                    </div>
+                    <a href="#enroll" class="block w-full py-2.5 text-center bg-gray-100 hover:bg-brand-700 hover:text-white rounded-lg font-semibold text-sm transition">Inquire Details</a>
+                </div>
+
+                <!-- Course 4: Foundation Classes (9th & 10th) -->
+                <div class="bg-white rounded-2xl p-7 shadow-sm border border-gray-200 hover:shadow-xl hover:border-brand-600 transition duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-purple-100 text-purple-700 flex items-center justify-center font-bold text-xl mb-5">
+                            🌱
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900">Foundation (9th & 10th)</h3>
+                        <p class="text-xs font-semibold text-purple-600 uppercase mt-1 mb-4">Olympiads, NTSE & Boards</p>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-6">
+                            Build rock-solid basic aptitude early on. Designed to remove exam fear and prepare young minds for top competitive examinations ahead.
+                        </p>
+                    </div>
+                    <a href="#enroll" class="block w-full py-2.5 text-center bg-gray-100 hover:bg-brand-700 hover:text-white rounded-lg font-semibold text-sm transition">Inquire Details</a>
+                </div>
+
+                <!-- Course 5: Science & Commerce (11th & 12th Boards) -->
+                <div class="bg-white rounded-2xl p-7 shadow-sm border border-gray-200 hover:shadow-xl hover:border-brand-600 transition duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-pink-100 text-pink-700 flex items-center justify-center font-bold text-xl mb-5">
+                            📚
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900">Boards (XI & XII CBSE/HBSE)</h3>
+                        <p class="text-xs font-semibold text-pink-600 uppercase mt-1 mb-4">Medical, Non-Med & Commerce</p>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-6">
+                            Specialized batches focusing on 95%+ marks in board examinations with answer-writing techniques, revisions, and practical syllabus coverage.
+                        </p>
+                    </div>
+                    <a href="#enroll" class="block w-full py-2.5 text-center bg-gray-100 hover:bg-brand-700 hover:text-white rounded-lg font-semibold text-sm transition">Inquire Details</a>
+                </div>
+
+                <!-- Course 6: CUET -->
+                <div class="bg-white rounded-2xl p-7 shadow-sm border border-gray-200 hover:shadow-xl hover:border-brand-600 transition duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-teal-100 text-teal-700 flex items-center justify-center font-bold text-xl mb-5">
+                            🎓
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900">CUET Crash & Year-Long</h3>
+                        <p class="text-xs font-semibold text-teal-600 uppercase mt-1 mb-4">Central University Admissions</p>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-6">
+                            Get selected into Delhi University (DU), BHU, and JNU with domain subject revision and general aptitude test training.
+                        </p>
+                    </div>
+                    <a href="#enroll" class="block w-full py-2.5 text-center bg-gray-100 hover:bg-brand-700 hover:text-white rounded-lg font-semibold text-sm transition">Inquire Details</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Global Classes Hisar -->
+    <section id="why-us" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                
+                <div class="space-y-6">
+                    <span class="text-brand-700 font-bold uppercase tracking-wider text-xs">The Global Advantage</span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 leading-tight">
+                        Why Students & Parents in Hisar Choose Global Classes
+                    </h2>
+                    <p class="text-gray-600">
+                        We avoid overcrowded mega-batches. Instead, we cultivate an environment where every child's strengths and weaknesses are directly known by the teachers.
+                    </p>
+
+                    <div class="space-y-4 pt-2">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-10 h-10 rounded-lg bg-brand-50 text-brand-700 flex items-center justify-center font-bold text-lg shrink-0">
+                                01
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900 text-base">Kota & Delhi Faculty Pedagogy</h4>
+                                <p class="text-gray-600 text-sm mt-0.5">Learn tricks and problem breakdown methods proven over years of competitive entrance coaching.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4">
+                            <div class="w-10 h-10 rounded-lg bg-brand-50 text-brand-700 flex items-center justify-center font-bold text-lg shrink-0">
+                                02
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900 text-base">Dedicated Daily Doubt Counters</h4>
+                                <p class="text-gray-600 text-sm mt-0.5">No lingering doubts before you go home. Mentors are available post-lecture for personalized support.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4">
+                            <div class="w-10 h-10 rounded-lg bg-brand-50 text-brand-700 flex items-center justify-center font-bold text-lg shrink-0">
+                                03
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900 text-base">Regular PTMs & Academic Audits</h4>
+                                <p class="text-gray-600 text-sm mt-0.5">Bi-weekly performance tracking reports delivered directly to parents with biometric attendance tracking.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Feature Grid Visual -->
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="p-6 bg-brand-50 rounded-2xl border border-brand-100 text-center">
+                        <div class="text-3xl mb-2">💻</div>
+                        <h4 class="font-bold text-gray-900 text-sm sm:text-base">Smart Classrooms</h4>
+                        <p class="text-xs text-gray-500 mt-1">Air-conditioned, tech-enabled digital learning</p>
+                    </div>
+                    <div class="p-6 bg-amber-50 rounded-2xl border border-amber-100 text-center">
+                        <div class="text-3xl mb-2">📑</div>
+                        <h4 class="font-bold text-gray-900 text-sm sm:text-base">Curated Notes</h4>
+                        <p class="text-xs text-gray-500 mt-1">Concise modules covering 15-year past trends</p>
+                    </div>
+                    <div class="p-6 bg-emerald-50 rounded-2xl border border-emerald-100 text-center">
+                        <div class="text-3xl mb-2">📝</div>
+                        <h4 class="font-bold text-gray-900 text-sm sm:text-base">All-India Test Series</h4>
+                        <p class="text-xs text-gray-500 mt-1">Benchmarked against real test criteria</p>
+                    </div>
+                    <div class="p-6 bg-purple-50 rounded-2xl border border-purple-100 text-center">
+                        <div class="text-3xl mb-2">🎯</div>
+                        <h4 class="font-bold text-gray-900 text-sm sm:text-base">Personal Mentoring</h4>
+                        <p class="text-xs text-gray-500 mt-1">Stress management and revision mapping</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Student Reviews / Testimonials -->
+    <section id="testimonials" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-brand-700 font-bold uppercase tracking-wider text-xs">Real Feedback</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mt-2">What Our Students & Parents Say</h2>
+                <p class="text-gray-600 mt-3 text-base">Over 4.9-star average rating across Hisar educational forums.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
+                    <div class="flex text-amber-400 mb-3 text-sm">★★★★★</div>
+                    <p class="text-gray-600 text-sm italic mb-4">
+                        "The faculty at Global Classes Hisar simplified Physics and Chemistry for me. Their DPPs and constant tests made the real NEET exam feel familiar."
+                    </p>
+                    <div class="border-t border-gray-100 pt-3">
+                        <p class="font-bold text-gray-900 text-sm">Tamanna S.</p>
+                        <p class="text-xs text-brand-600">NEET Aspirant (2024)</p>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
+                    <div class="flex text-amber-400 mb-3 text-sm">★★★★★</div>
+                    <p class="text-gray-600 text-sm italic mb-4">
+                        "Best institute in Hisar for JEE and NDA. Teachers don't rush through the syllabus; they ensure every student has their doubts cleared before moving forward."
+                    </p>
+                    <div class="border-t border-gray-100 pt-3">
+                        <p class="font-bold text-gray-900 text-sm">Abhishek Kumar</p>
+                        <p class="text-xs text-brand-600">JEE Mains Qualifier</p>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
+                    <div class="flex text-amber-400 mb-3 text-sm">★★★★★</div>
+                    <p class="text-gray-600 text-sm italic mb-4">
+                        "As a parent, I am very satisfied with the regular communication and PTMs. My child’s confidence in Mathematics improved remarkably within 3 months."
+                    </p>
+                    <div class="border-t border-gray-100 pt-3">
+                        <p class="font-bold text-gray-900 text-sm">Rajesh Bishnoi</p>
+                        <p class="text-xs text-brand-600">Parent (Class 11th Student)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visit Us / Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-brand-700 font-bold uppercase tracking-wider text-xs">Reach Out</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mt-2">Visit Our Hisar Campus</h2>
+                <p class="text-gray-600 mt-2">Walk in during counseling hours for fee structures, material samples, and campus tours.</p>
+            </div>
+
+            <div class="grid lg:grid-cols-3 gap-8">
+                <!-- Location Details -->
+                <div class="bg-gray-50 p-6 rounded-2xl border border-gray-200 space-y-4">
+                    <div class="flex items-start space-x-3">
+                        <span class="text-xl">📍</span>
+                        <div>
+                            <h4 class="font-bold text-gray-900 text-sm">Campus Address</h4>
+                            <p class="text-gray-600 text-sm mt-1">DSS-72, Old Court Complex,<br>Rajgarh Road, Hisar, Haryana - 125001</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start space-x-3">
+                        <span class="text-xl">📞</span>
+                        <div>
+                            <h4 class="font-bold text-gray-900 text-sm">Phone Numbers</h4>
+                            <p class="text-gray-600 text-sm mt-1">
+                                <a href="tel:+919992224651" class="hover:text-brand-700 font-semibold">+91 99922 24651</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start space-x-3">
+                        <span class="text-xl">⏰</span>
+                        <div>
+                            <h4 class="font-bold text-gray-900 text-sm">Office Timings</h4>
+                            <p class="text-gray-600 text-sm mt-1">
+                                Mon - Sat: 8:00 AM – 6:00 PM<br>
+                                Sunday: 11:00 AM – 3:00 PM
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quick Inquiry Box -->
+                <div class="lg:col-span-2 bg-brand-900 text-white p-8 rounded-2xl flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-2xl font-bold mb-2">Want to know more about Scholarship & Batches?</h3>
+                        <p class="text-gray-300 text-sm max-w-xl mb-6">
+                            Drop by our centre or chat directly on WhatsApp to get immediate course fees, batch schedules, and free demo passes.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-4">
+                        <a href="https://wa.me/919992224651" target="_blank" class="bg-green-600 hover:bg-green-700 text-white font-bold px-6 py-3 rounded-xl transition text-sm">
+                            Connect on WhatsApp
+                        </a>
+                        <a href="tel:+919992224651" class="bg-white hover:bg-gray-100 text-brand-900 font-bold px-6 py-3 rounded-xl transition text-sm">
+                            Call Centre Directly
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-12 text-sm border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="text-center md:text-left">
+                <span class="text-xl font-extrabold text-white">GLOBAL<span class="text-amber-500">CLASSES</span></span>
+                <p class="text-xs text-gray-500 mt-1">Rajgarh Road, Hisar, Haryana</p>
+            </div>
+            <div class="flex space-x-6 text-xs font-medium">
+                <a href="#courses" class="hover:text-white">Courses</a>
+                <a href="#why-us" class="hover:text-white">Features</a>
+                <a href="#testimonials" class="hover:text-white">Reviews</a>
+                <a href="#contact" class="hover:text-white">Location</a>
+            </div>
+            <p class="text-xs text-gray-500">
+                &copy; <script>document.write(new Date().getFullYear())</script> Global Classes Hisar. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
